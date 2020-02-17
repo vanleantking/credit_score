@@ -1,0 +1,26 @@
+0. id - int <= increment
+1. label - 0, 1 (classifier variable)
+2. province - string (outliers: nan)
+3. district - string (outliers: nan)
+4. age_source1 - string, float => convert to int / float (outliers: nan, -1, < 18)
+5. age_source2 - string, float => convert to int / float (outliers: nan, -1, < 18)
+6. job - string (outliers: none, nan) => chuẩn hóa lại công việc (CN, công nhân, Công nhân,... Nhân viên, nv, nhân viên...)
+7. field_1 - string, float (1, 0) => convert to float
+8. field_2 - string, float (1, 0) => convert to float (outliers: nan)
+9. field_3 - string, float => convert to float (outliers: -1)
+10. field_4 - string, float => convert to float (outliers: nan)
+11. field_5 - string, float => convert to float (outliers: nan)
+12. field_6 - string, float => convert to float (outliers: nan)
+13. field_7 - list of string => convert to float (outliers: [])
+14. field_8 - string => convert to float (outliers: nan) (male / female)
+15. field_9 - string
+16. field_10 - string  (outliers: nan)
+17. field_11 - float  (outliers: nan, none)
+18. field_12 - float  (outliers: nan, none) nan 'None' '0' '1' 'HT' 'TN'
+19. field_13 - string  (outliers: nan)
+20. field_14 - string, float (1, 0) => convert to float
+21. field_15 - string, float (1, 0) => convert to float
+22. field_16 - string, float (1, 0) (outliers: nan) => convert to float
+23. field_17 - string  (outliers: none, nan)
+24. field_18 - bool, string  (outliers: nan) => convert to bool 'TRUE' 'FALSE' True False
+25. field_19 - bool, string  (outliers: nan) => convert to bool 'TRUE' 'FALSE' True False
